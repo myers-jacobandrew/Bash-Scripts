@@ -34,7 +34,7 @@ cat * > entire
 #now ask user the priority level
 read -p "Enter the priority level:(1, 2, or 3): " priority
 
-#De Morgan's showing its ugly face
+#De Morgan's 
 if [ "$priority" != "1" ] && [ "$priority" != "2" ] && [ "$priority" != "3" ];
 then
 echo "Enter something right, not a" $priority 

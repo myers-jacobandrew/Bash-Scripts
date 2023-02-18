@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Run a command every minute
+* * * * * /path/to/command1.sh
+
+# Run a command every hour at the top of the hour
+0 * * * * /path/to/command2.sh
+
+# Run a command every day at midnight
+0 0 * * * /path/to/command3.sh
+
+# Run a command every week on Sunday at midnight
+0 0 * * 0 /path/to/command4.sh
+
+# Run a command every month on the first day of the month at midnight
+0 0 1 * * /path/to/command5.sh
+
+# Run a command every weekday at 9am
+0 9 * * 1-5 /path/to/command6.sh
+
+# Run a command every 15 minutes
+*/15 * * * * /path/to/command7.sh
+
+# Run a command every 5 hours
+0 */5 * * * /path/to/command8.sh

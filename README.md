@@ -9,7 +9,7 @@ This repository contains a collection of small Bash scripts for performing vario
 -   `basicCronUsage.sh`: A script for displaying basic usage of the `cron` scheduler.
 -   `basicMenu.sh`: A script for displaying a simple menu with options to choose from.
 -   `basicNetworkCheck.sh`: A script for checking network connectivity.
--   `basicRemoteFileManagement.sh`: A script for managing remote files using `scp`.
+-   `basicRemoteFileManagement.sh`: A script for managing remote files using `rsync`.
 -   `basicUserManagement.sh`: A script for managing user accounts.
 -   `png-to-jpg.sh`: A script for converting PNG images to JPEG format.
 -   `sysInfo.sh`: A script for displaying system information.
